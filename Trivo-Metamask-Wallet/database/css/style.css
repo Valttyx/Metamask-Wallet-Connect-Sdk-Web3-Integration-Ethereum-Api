@@ -1,0 +1,27 @@
+.metamask-donate {
+    padding: 8px 20px;
+    width: 40%;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.metamask-donate:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.metamask-donate:focus{
+    outline: none;
+}
+
+.iziToast-title {
+    font-weight: bold;
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+
+.iziToast-message {
+    font-weight: 600;
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
