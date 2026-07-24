@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dat7fxlwen6xg"]
+
+[ext_resource type="Script" path="res://addons/metamask/metamask.gd" id="1"]
+[ext_resource type="Script" path="res://addons/metamask/convert_util.gd" id="2"]
+
+[node name="Metamask" type="Node"]
+script = ExtResource("1")
+
+[node name="JavaScriptConvert" type="Node" parent="."]
+script = ExtResource("2")
